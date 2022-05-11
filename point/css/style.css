@@ -1,0 +1,204 @@
+@import "reset.css";
+/* body {
+} */
+section {
+  padding: 50px 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h2 {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 107.9%;
+  color: #093636;
+}
+h2 span {
+  color: #306e9d;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.header {
+  padding: 24px 0;
+  background: rgba(249, 252, 255, 0.4);
+  border: 1px solid #e1f0ee;
+}
+.header__box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header nav {
+  display: flex;
+}
+.header nav li {
+  margin-right: 80px;
+}
+.header nav li:last-child {
+  margin-right: 0;
+}
+.header nav li a {
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21px;
+  color: #093636;
+  transition: 0.3s;
+}
+.header nav li a:hover {
+  color: #306e9d;
+}
+
+.hero__box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero__txt h1 {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 41px;
+  line-height: 107.9%;
+  color: #093636;
+}
+.hero__txt h1 span {
+  color: #306e9d;
+  display: block;
+}
+.hero__txt p {
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 34px;
+  color: #00325a;
+  max-width: 375px;
+  margin: 25px 0;
+}
+.hero__txt button {
+  display: block;
+  border: none;
+  background: #226699;
+  border-radius: 5.12775px;
+  width: 290px;
+  height: 50px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+  margin-bottom: 17px;
+}
+.hero__txt a {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 21px;
+  color: #6da4cd;
+  width: 290px;
+  height: 50px;
+  padding: 15px 37px;
+  border: 2.56388px solid #c6e1f6;
+  border-radius: 5.12775px;
+  display: flex;
+  align-items: center;
+}
+
+.simply__box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.simply__txt {
+  width: 50%;
+}
+.simply__txt p {
+  margin-top: 35px;
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 34px;
+  color: #00325a;
+}
+.simply__txt h3 {
+  margin-top: 80px;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 38px;
+  color: #093636;
+}
+.simply__btn {
+  margin-top: 40px;
+  display: flex;
+}
+.simply__btn a {
+  margin-right: 15px;
+}
+.simply__btn a:last-child {
+  margin-right: 0;
+}
+
+.simply-1 {
+  background-image: url("./../img/simply-bg.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 70% 30%;
+}
+
+.simply-2 {
+  background-image: url("./../img/simply__bg-2.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 35% 30%;
+}
+
+.simply-3 {
+  background-image: url("./../img/simply__bg-3.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 70% 30%;
+}
+
+.about__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.about__link {
+  width: 274px;
+}
+.about__link h3 {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  color: #093636;
+}
+.about__link p {
+  margin-top: 20px;
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #00325A;
+}/*# sourceMappingURL=style.css.map */
